@@ -32,11 +32,9 @@ export default {
   url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
 }
 
-@import "src/styles/variables.scss";
-@import "src/styles/contactsbar.scss";
 @import "src/styles/header.scss";
-@import "src/styles/hero.scss";
-@import "src/styles/navbar.scss";
+@import "src/styles/main.scss";
+
 html,
 body {
   padding: 0;

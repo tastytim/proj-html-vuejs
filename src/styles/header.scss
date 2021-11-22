@@ -1,4 +1,7 @@
-@import "./variables";
+@import "src/styles/variables.scss";
+@import "src/styles/header-css/contactsbar.scss";
+@import "src/styles/header-css/hero.scss";
+@import "src/styles/header-css/navbar.scss";
 
 .header{
     height: 100vh;

@@ -1,4 +1,4 @@
-@import "./variables";
+@import "src/styles/variables.scss";
 
 .hero {
   height: calc(100vh - 50px);
@@ -14,7 +14,6 @@
       justify-content: center;
       .hero-description {
         width: 50%;
-        top:50px;
         h1 {
           font-size: 65px;
           color: white;
@@ -38,11 +37,13 @@
           color: $graynurse;
         }
         .jumbo-buttons {
+          
           button {
             color: white;
             margin-right: 10px;
             font-weight: bold;
             padding: 7px 10px;
+            border-radius: 2px;
           }
           .riptide-button {
             background-color: $bluelagoon;

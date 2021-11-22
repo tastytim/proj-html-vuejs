@@ -1,0 +1,80 @@
+@import "src/styles/variables.scss";
+
+.blockcompany {
+  background: linear-gradient(to right, $woodsmoke 50%, transparent 50%);
+  height: 90vh;
+  position: relative;
+  .container{
+      height: 100%;
+      .row{
+          height: 100%;
+          .col{
+              padding: 100px 0;
+              display: flex;
+              flex-direction: column;
+      height: 100%;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+      }
+  }
+  
+}
+
+.blockcompany::after {
+  content: "";
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  background: url("~@/assets/about-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.dots {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 200px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.dots-low {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 200px;
+  height: 100px;
+  transform: translate(-50%, 50%);
+  z-index: 1;
+}
+
+.dotted {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: $bluelagoon;
+  background-color: transparent;
+  border-width: 6px;
+  width: 100%;
+}
+
+
+.percent-block{
+    display: flex;
+    align-items: center;
+    button{
+        font-size: 25px;
+        border: 5px solid $capecod;
+        border-radius: 50%;
+        background-color: transparent;
+        color: white;
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+}
