@@ -1,0 +1,24 @@
+@import "./variables";
+
+.contactsbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: $riverbed;
+    color:$graynurse;
+    
+        ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        li{
+            padding: 0 10px;
+            span{
+                padding: 0 5px;
+            }
+        }
+    }
+    
+    
+}
