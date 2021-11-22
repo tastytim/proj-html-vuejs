@@ -1,1 +1,36 @@
 @import "./variables";
+
+.navbar {
+    padding: 15px 0;
+  .box-nex {
+    position: relative;
+  }
+  .nav-link {
+    color: white;
+  }
+  .getintouch-button {
+    background-color: $bluelagoon;
+    border: 1px solid $bluelagoon;
+    color: white;
+    font-weight: bold;
+    padding: 7px 10px;
+  }
+  .navbar-brand {
+    letter-spacing: 4px;
+    color: white;
+    .nex {
+      color: $riptide;
+    }
+  }
+  .navbar-brand::after {
+    content: "";
+    display: inline;
+    position: absolute;
+    border-radius: 28px;
+    left: -20%;
+    top: -20%;
+    height: 140%;
+    width: 120%;
+    background: linear-gradient(to right, #88e1e358 50%, transparent 50%);
+  }
+}
