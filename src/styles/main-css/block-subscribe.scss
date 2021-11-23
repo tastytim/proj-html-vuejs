@@ -1,0 +1,61 @@
+@import "src/styles/variables.scss";
+
+.blocksubscribe {
+  height: 450px;
+  background: url("~@/assets/bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  .col{
+      padding: 50px 100px;
+      height: 270px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h6{
+          color:$bluelagoon;
+          font-weight: bold;
+      }
+      h2{
+          font-weight: bold;
+          margin-left:9px;
+          
+      }
+      .know{
+          position: relative;
+      }
+      .know::after {
+        content: "";
+        display: inline;
+        position: absolute;
+        left: -10%;
+        top: -20%;
+        height: 140%;
+        width: 120%;
+        background: linear-gradient(to right, #88e1e358 50%, #88e1e358 50%);
+      }
+      p{
+        color: $regentgray;
+      }
+
+      .form-control{
+        border: 1px solid #e5ebe596;
+          background-color: #e5ebe596;
+      }
+      .blue-lagoon-button{
+        background: $bluelagoon;
+        color: white;
+        padding:5px 10px;
+        margin: 10px 0;
+        border: 1px solid $bluelagoon;
+        position: relative;
+        bottom:0;
+        border-radius: 2px;
+        width: 30%;
+    }
+  }
+}

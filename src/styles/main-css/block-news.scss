@@ -1,6 +1,65 @@
 @import "src/styles/variables.scss";
 
+.blocknews {
+  .col {
+    position: relative;
+  }
+  padding: 100px 0;
+  h6 {
+    color: $bluelagoon;
+  }
+  h2 {
+    font-weight: bold;
+    padding: 20px 0;
+  }
+  h4 {
+    padding: 20px 0;
+  }
 
-.blocknews{
-    padding: 100px 0;
+  .news {
+    color: $bluelagoon;
+    position: relative;
+    z-index: 1;
+  }
+
+  .news::after {
+    content: "";
+    display: inline;
+    position: absolute;
+    left: -8%;
+    top: -20%;
+    height: 140%;
+    width: 120%;
+    background: linear-gradient(to right, #88e1e358 50%, #88e1e358 50%);
+    z-index: -1;
+  }
+  p {
+    color: $regentgray;
+  }
+  .lagoon-button {
+    background: $bluelagoon;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: 1px solid $bluelagoon;
+    position: relative;
+    bottom: 0;
+    border-radius: 2px;
+  }
+  img {
+    border-radius: 12px;
+    filter: brightness(50%);
+  }
+  .img-text {
+    position: absolute;
+    padding: 10px;
+    left: 20%;
+    bottom: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    transform: translate(-50px, 0%);
+    color: white;
+    width: 80%;
+    text-align: center;
+  }
 }

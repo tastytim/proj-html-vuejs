@@ -4,6 +4,7 @@
   background: linear-gradient(to right, $woodsmoke 50%, transparent 50%);
   height: 90vh;
   position: relative;
+  min-height: 670px;
   .container {
     height: 100%;
     .row {
@@ -22,6 +23,7 @@
         h2{
             font-weight: bold;
             padding: 20px 0;
+            margin-left:14px;
         }
         h4{
             padding: 20px 0;
@@ -59,7 +61,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 100%;
 }
 
 .dots {
