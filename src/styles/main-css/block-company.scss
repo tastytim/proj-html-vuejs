@@ -4,21 +4,48 @@
   background: linear-gradient(to right, $woodsmoke 50%, transparent 50%);
   height: 90vh;
   position: relative;
-  .container{
+  .container {
+    height: 100%;
+    .row {
       height: 100%;
-      .row{
-          height: 100%;
-          .col{
-              padding: 100px 0;
-              display: flex;
-              flex-direction: column;
-      height: 100%;
-      justify-content: space-between;
-      align-items: flex-start;
-  }
+      .col {
+        padding: 100px 20px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        color:white;
+        h6{
+            color:$bluelagoon;
+        }
+        h2{
+            font-weight: bold;
+            padding: 20px 0;
+        }
+        h4{
+            padding: 20px 0;
+        }
+        .the{
+            position: relative;
+            display: inline;
+            margin-right:5px;
+            z-index: 1;
+        }
+        .the::after {
+            content: "";
+            display: inline;
+            position: absolute;
+            left: -20%;
+            top: -20%;
+            height: 140%;
+            width: 120%;
+            background: linear-gradient(to right, #88e1e358 50%, #88e1e358 50%);
+            z-index: -1;
+          }
       }
+    }
   }
-  
 }
 
 .blockcompany::after {
@@ -63,18 +90,16 @@
   width: 100%;
 }
 
-
-.percent-block{
-    display: flex;
-    align-items: center;
-    button{
-        font-size: 25px;
-        border: 5px solid $capecod;
-        border-radius: 50%;
-        background-color: transparent;
-        color: white;
-        padding: 10px;
-        margin-right: 10px;
-    }
-
+.percent-block {
+  display: flex;
+  align-items: center;
+  button {
+    font-size: 25px;
+    border: 5px solid $capecod;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+  }
 }
