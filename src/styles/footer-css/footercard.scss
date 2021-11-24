@@ -1,0 +1,36 @@
+@import "src/styles/variables.scss";
+
+.footercard {
+  background: rgb(178, 184, 182);
+  background: linear-gradient(
+    223deg,
+    rgba(178, 184, 182, 0.231) 0%,
+    rgba(157, 163, 163, 0.034) 100%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 12px;
+  height: 100%;
+  position: relative;
+
+  .card-custom {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    ul {
+      li {
+        padding: 2px;
+        margin: 0;
+      }
+    }
+  }
+
+  .txt {
+    margin-left: 7px;
+  }
+  h3 {
+    color: white;
+  }
+}

@@ -1,0 +1,68 @@
+@import 'src/styles/variables.scss';
+@import 'src/styles/footer-css/copyright.scss';
+@import 'src/styles/footer-css/footercard.scss';
+
+
+.footer{
+  background: url("~@/assets/bg-10.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  color: $regentgray;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  filter: brightness(70%);
+
+  .col{
+    position: relative;
+    padding: 0 15px;
+    
+  }
+    .box-nex {
+        position: relative;
+      }
+    .navbar-brand {
+
+      position: relative;
+        letter-spacing: 6px;
+        color: white;
+        .nex {
+          color: $riptide;
+        }
+      }
+      .nex::after {
+        content: "";
+        display: inline;
+        position: absolute;
+        border-radius: 28px;
+        left: -13%;
+        top: -20%;
+        height: 140%;
+        width: 120%;
+        background: linear-gradient(to right, #88e1e358 50%, transparent 50%);
+      }
+      .trasparent-button{
+        color: white;
+        margin-right: 10px;
+        font-weight: bold;
+        padding: 7px 10px;
+        border-radius: 2px;
+        background-color: transparent;
+        border: 2px solid $bluelagoon;
+      }
+
+      ul{
+        list-style: none;
+        padding-left: 0;
+        li{
+          padding: 10px 0;
+        }
+      }
+      p{
+        margin-top:20px
+      }
+      .icon-txt{
+           margin-left:10px;
+      }
+}

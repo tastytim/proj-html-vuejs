@@ -34,6 +34,7 @@ export default {
 
 @import "src/styles/header.scss";
 @import "src/styles/main.scss";
+@import "src/styles/footer.scss";
 
 html,
 body {

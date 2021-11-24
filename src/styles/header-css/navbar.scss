@@ -17,18 +17,19 @@
     border-radius: 2px;
   }
   .navbar-brand {
-    letter-spacing: 4px;
+    position: relative;
+    letter-spacing: 6px;
     color: white;
     .nex {
       color: $riptide;
     }
   }
-  .navbar-brand::after {
+  .nex::after {
     content: "";
     display: inline;
     position: absolute;
     border-radius: 28px;
-    left: -20%;
+    left: -13%;
     top: -20%;
     height: 140%;
     width: 120%;
