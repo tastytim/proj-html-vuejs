@@ -7,7 +7,7 @@
             <li><i class="fas fa-clock"></i><span>Open Hours: Mon - Sat - 9:00 - 18:00</span></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col col-social">
           <ul>
             <li><i class="fas fa-phone-alt"></i><span>+1(305) 1234-5678</span></li>
             <li><i class="fas fa-envelope"></i> <span>hello@example.com</span></li>
