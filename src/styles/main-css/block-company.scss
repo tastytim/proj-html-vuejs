@@ -26,7 +26,7 @@
             margin-left:14px;
         }
         h4{
-            padding: 20px 0;
+            padding: 10px 0;
         }
         .the{
             position: relative;
@@ -44,6 +44,9 @@
             width: 120%;
             background: linear-gradient(to right, #88e1e358 50%, #88e1e358 50%);
             z-index: -1;
+          }
+          .txt{
+            margin-left:10px;
           }
       }
     }
